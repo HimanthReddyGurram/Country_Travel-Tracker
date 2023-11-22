@@ -8,10 +8,10 @@ const port = 4000;
 app.set('view engine' , 'ejs');
 
 const db = new pg.Client({
-  user: "himanth",
+  user: "",
   host: "localhost",
-  database: "school",
-  password: "Joy@143100",
+  database: "",
+  password: "",
   port: 5432,
 });
 db.connect();

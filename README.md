@@ -1,4 +1,4 @@
-# countryTravelTracker
+# Country Travel-Tracker
 A website where we can create users and track the countries a specific user went in a visually appealing manner.
 (This website has a backend so the data doesnot get lost when refreshing websites or servers.)
 
@@ -32,14 +32,15 @@ const db = new pg.Client({
   port: 5432,
 });
 ```
+If you want to start working on your project right away, you might want to try the following commands:
 
 From your command line:
 ```bash
 # Clone this repository
-git clone https://github.com/HimanthReddyGurram/countryTravelTracker.git
+git clone https://github.com/HimanthReddyGurram/Country_Travel-Tracker.git
 
 # Go into the repository
-$ cd countryTravelTracker.git
+$ cd Country_Travel-Tracker.git
 
 # Install dependencies
 npm install
